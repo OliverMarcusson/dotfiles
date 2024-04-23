@@ -248,10 +248,10 @@ require('lazy').setup({
           group_empty = true,
         },
         filters = {
-          git = true,
           dotfiles = true,
         },
       }
+      vim.keymap.set('n', '<leader>ef', '<cmd>NvimTreeFocus<CR>', { desc = '[E]xplorer [F]ocus' })
       vim.keymap.set('n', '<leader>e', '<cmd>NvimTreeToggle<CR>', { desc = 'Toggle [E]xplorer' })
     end,
   },
