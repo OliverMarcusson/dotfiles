@@ -8,6 +8,8 @@
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 alias py='python'
+alias code='codium'
+
 PS1='[\u@\h \W]\$ '
 
 fastfetch
