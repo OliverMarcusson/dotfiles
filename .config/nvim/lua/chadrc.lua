@@ -15,6 +15,7 @@ M.base46 = {
 }
 
 M.ui = {
+  -- transparency = true,
   statusline = {
         enabled = true,
         theme = "default", -- default/vscode/vscode_colored/minimal

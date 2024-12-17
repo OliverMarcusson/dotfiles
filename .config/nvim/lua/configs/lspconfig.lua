@@ -29,7 +29,15 @@ lspconfig.rust_analyzer.setup{
   }
 }
 
-lspconfig.basedpyright.setup {}
+lspconfig.basedpyright.setup {
+  settings = {
+    basedpyright = {
+      analysis = {
+        typeCheckingMode = "off",
+      }
+    }
+  }
+}
 
 -- configuring single server, example: typescript
 -- lspconfig.ts_ls.setup {
