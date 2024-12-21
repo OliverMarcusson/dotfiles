@@ -39,6 +39,11 @@ lspconfig.basedpyright.setup {
   }
 }
 
+lspconfig.bashls.setup {
+  filetypes = { "bash", "sh", "zsh" },
+  cmd = { "bash-language-server", "start" }
+}
+
 -- configuring single server, example: typescript
 -- lspconfig.ts_ls.setup {
 --   on_attach = nvlsp.on_attach,
