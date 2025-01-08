@@ -1,7 +1,7 @@
 # ✨ dotfiles
-**Updated 2024-12-12 08:50**
+**Updated 2025-01-08 12:21**
 <br>
-These are my current dotfiles!
+These are my current dotfiles! **(Nand2Tetris variation)**
 ### 📂 Currently  includes:
 💜 Neovim
 <br>
