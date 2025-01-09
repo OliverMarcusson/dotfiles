@@ -114,9 +114,9 @@ fi
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-symlink=~/dotfiles/.oh-my-zsh/custom/aliases.zsh
-
-if [ ! -L "$symlink" ]; then
-  cd ~/dotfiles/.oh-my-zsh/custom
-  ln -s "$alias_config" "aliases.zsh"
-fi
+# symlink=~/dotfiles/.oh-my-zsh/custom/aliases.zsh
+#
+# if [ ! -L "$symlink" ]; then
+#   cd ~/dotfiles/.oh-my-zsh/custom
+#   ln -s "$alias_config" "aliases.zsh"
+# fi
